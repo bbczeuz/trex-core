@@ -65,7 +65,7 @@ class ConfigCreator(object):
     if march == 'ppc64le':
         MAX_LCORE_NUM = 159
     else:
-        MAX_LCORE_NUM = 63
+        MAX_LCORE_NUM = 256
 
     # cpu_topology - dict: physical processor -> physical core -> logical processing unit (thread)
     # interfaces - array of dicts per interface, should include "mandatory_interface_fields" values
